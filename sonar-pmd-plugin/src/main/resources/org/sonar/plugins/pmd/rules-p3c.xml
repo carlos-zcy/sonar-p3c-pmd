@@ -15,8 +15,7 @@
     <configKey><![CDATA[rulesets/java/ali-comment.xml/ClassMustHaveAuthorRule]]></configKey>
   </rule>
   <rule key="EnumConstantsMustHaveCommentRule">
-    <priority>CRITICAL</priority>
-    <tag>security</tag>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
   </rule>
   <rule key="AvoidCommentBehindStatementRule">
@@ -90,7 +89,8 @@
     <configKey><![CDATA[rulesets/java/ali-exception.xml/AvoidReturnInFinallyRule]]></configKey>
   </rule>
   <rule key="TransactionMustHaveRollbackRule">
-    <priority>MAJOR</priority>
+    <priority>BLOCKER</priority>
+    <tag>bug</tag>
     <configKey><![CDATA[rulesets/java/ali-exception.xml/TransactionMustHaveRollbackRule]]></configKey>
   </rule>
 
@@ -102,6 +102,7 @@
   </rule>
   <rule key="NeedBraceRule">
     <priority>BLOCKER</priority>
+    <tag>bug</tag>
     <configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/NeedBraceRule]]></configKey>
   </rule>
   <rule key="AvoidComplexConditionRule">
@@ -133,8 +134,7 @@
     <configKey><![CDATA[rulesets/java/ali-naming.xml/TestClassShouldEndWithTestNamingRule]]></configKey>
   </rule>
   <rule key="LowerCamelCaseVariableNamingRule">
-    <priority>CRITICAL</priority>
-    <tag>security</tag>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-naming.xml/LowerCamelCaseVariableNamingRule]]></configKey>
   </rule>
   <rule key="AvoidStartWithDollarAndUnderLineNamingRule">
@@ -194,7 +194,8 @@
     <configKey><![CDATA[rulesets/java/ali-oop.xml/PojoMustOverrideToStringRule]]></configKey>
   </rule>
   <rule key="BigDecimalAvoidDoubleConstructorRule">
-    <priority>MAJOR</priority>
+    <priority>BLOCKER</priority>
+    <tag>bug</tag>
     <configKey><![CDATA[rulesets/java/ali-oop.xml/BigDecimalAvoidDoubleConstructorRule]]></configKey>
   </rule>
 
@@ -229,7 +230,8 @@
     <configKey><![CDATA[rulesets/java/ali-other.xml/MethodTooLongRule]]></configKey>
   </rule>
   <rule key="UseRightCaseForDateFormatRule">
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
+    <tag>security</tag>
     <configKey><![CDATA[rulesets/java/ali-other.xml/UseRightCaseForDateFormatRule]]></configKey>
   </rule>
   <rule key="AvoidDoubleOrFloatEqualCompareRule">
