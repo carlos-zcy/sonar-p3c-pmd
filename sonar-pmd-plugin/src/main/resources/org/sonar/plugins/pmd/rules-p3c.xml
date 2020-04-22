@@ -143,7 +143,7 @@
     <configKey><![CDATA[rulesets/java/ali-naming.xml/AvoidStartWithDollarAndUnderLineNamingRule]]></configKey>
   </rule>
   <rule key="ConstantFieldShouldBeUpperCaseRule">
-    <priority>CRITICAL</priority>
+    <priority>MAJOR</priority>
     <tag>security</tag>
     <configKey><![CDATA[rulesets/java/ali-naming.xml/ConstantFieldShouldBeUpperCaseRule]]></configKey>
   </rule>
